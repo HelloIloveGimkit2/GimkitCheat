@@ -18550,7 +18550,7 @@
 						let angle = getUnsafeWindow().Phaser.Math.Angle.Between(0, 0, vector.x, vector.y);
 						socketManager.sendMessage("FIRE", { angle, x: body.x, y: body.y });
 					},
-					0.000000000000000000000001
+					0.0000000000000000000000000000000000000000000000000001
 				);
 			} else {
 				clearInterval(rapidfireInterval);
