@@ -18565,7 +18565,7 @@
 						let angle = getUnsafeWindow().Phaser.Math.Angle.Between(0, 0, vector.x, vector.y);
 						socketManager.sendMessage("FIRE", { angle, x: body.x, y: body.y });
 					},
-					10
+					99999999999999999999999999999999999999
 				);
 			} else {
 				clearInterval(rapidfireInterval);
@@ -21769,7 +21769,7 @@
 			o(local) {
 				transition_out(classicautopurchase.$$.fragment, local);
 				transition_out(richautopurchase.$$.fragment, local);
-				transition_out(digitup.$$.fragment, local);
+				transition_out(.$$.fragment, local);
 				transition_out(knockback.$$.fragment, local);
 				transition_out(ctf.$$.fragment, local);
 				transition_out(tag.$$.fragment, local);
@@ -21796,7 +21796,7 @@
 
 				destroy_component(classicautopurchase, detaching);
 				destroy_component(richautopurchase, detaching);
-				destroy_component(digitup, detaching);
+				destroy_component(, detaching);
 				destroy_component(knockback, detaching);
 				destroy_component(ctf, detaching);
 				destroy_component(tag, detaching);
